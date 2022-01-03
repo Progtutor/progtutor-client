@@ -1,24 +1,19 @@
 <template>
-  <v-app class="d-flex">
-    <Topbar />
+  <v-app class="d-flex" >
     <router-view />
   </v-app>
 </template>
 
 <script>
-import Topbar from "./components/Topbar/Topbar.vue"
-
 export default {
-    name: "App",
-    components: {
-        Topbar
-    }
+    name: "App"
 }
 </script>
 
 <style>
 #app {
   background: #121214;
+  color: #E5E5E5;
 }
 
 .toasted-font {

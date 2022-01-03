@@ -1,5 +1,10 @@
+import Topbar from "@/components/Topbar/Topbar.vue"
+
 export default {
-    name: "Topbar",
+    name: "Home",
+    components: {
+        Topbar
+    },
     methods: {
         
     },

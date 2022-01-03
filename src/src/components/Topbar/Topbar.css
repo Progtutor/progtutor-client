@@ -1,0 +1,18 @@
+#menu {
+    border-bottom: 1px solid #53599A;
+}
+
+a {
+    color: #E5E5E5 !important;
+    text-decoration: none;
+    margin-right: 25px;
+}
+
+a:hover {
+    transition: 0.25s;
+    color: #53599A !important;
+}
+
+button {
+    margin-left: 5px;
+}

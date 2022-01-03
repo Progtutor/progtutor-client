@@ -1,20 +1,37 @@
 <template>
-  <v-container fluid>
-    <v-row
-      justify="end"
-      class="bahama--text"
-    >
+  <v-container id="menu" fluid>
+    <v-row no-gutters>
       <v-col align="end">
-        <v-btn>1</v-btn>
-        <v-btn>2</v-btn>
-        <v-btn>3</v-btn>
-        <v-btn>4</v-btn>
-        <v-btn>5</v-btn>
+        <router-link to="/">
+          Home
+        </router-link>
+
+        <router-link to="/projetos">
+          Projetos
+        </router-link>
+
+        <router-link to="/planos">
+          Planos
+        </router-link>
+
+        <router-link to="/sobre">
+          Sobre
+        </router-link>
+
+        <v-btn tile small color="#53599A" outlined>
+          <v-icon left>mdi-account</v-icon>
+          Entrar
+        </v-btn>
+
+        <v-btn tile small color="#068D9D" class="white--text">
+          Criar Conta
+        </v-btn>
+
       </v-col>
-  
     </v-row>
 
   </v-container>
 </template>
 
 <script src="./Topbar.js"></script>
+<style src="./Topbar.css" scoped></style>

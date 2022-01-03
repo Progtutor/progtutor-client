@@ -8,7 +8,7 @@ export default new Vuetify({
     theme: {
         themes: {
             light: {
-                bahama: "#2A6484"
+                white: "#E5E5E5"
             }
         },
         options: {
