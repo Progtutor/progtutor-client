@@ -1,5 +1,6 @@
 #menu {
-    border-bottom: 1px solid #53599A;
+    margin-bottom: 60px;
+    border-bottom: 1px solid #6E75C1;
 }
 
 a {
@@ -10,7 +11,7 @@ a {
 
 a:hover {
     transition: 0.25s;
-    color: #53599A !important;
+    color: #6E75C1 !important;
 }
 
 button {
