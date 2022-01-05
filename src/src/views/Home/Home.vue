@@ -121,7 +121,7 @@
 
         <v-row align="center">
           <v-col align="center">
-            <div class="p-card">Criação e Consumo de API’s</div>
+            <div class="p-card">Criação e Consumo de API's</div>
           </v-col>
 
           <v-col align="center">
@@ -173,6 +173,70 @@
           </v-col>
         </v-row>
 
+    </div>
+
+    <div id="plans" class="base">
+      <v-row align="center">
+          <v-col align="center">
+            <div class="text-h4 blue--text title">Conheça nossos planos</div>
+          </v-col>
+        </v-row>
+
+        <v-row align="center">
+          <v-col align="center">
+            <div class="plan-card">
+              <b class="purple--text title">Trilha Full - Anual</b>
+              <div class="plan-card-content">
+                <p>Acesso a todo o conteudo do Progtutor e suas atualizações por 1 ano</p>
+                <div><v-icon color="blue" left>mdi-checkbox-outline</v-icon><span>Watch</span></div>
+                <div><v-icon color="blue" left>mdi-checkbox-outline</v-icon><span>Construct</span></div>
+                <div><v-icon color="blue" left>mdi-checkbox-outline</v-icon><span>Progress</span></div>
+                <div><v-icon color="blue" left>mdi-checkbox-outline</v-icon><span>Feedback</span></div>
+                <p><br>Plano anual de <b class="purple--text">R$ 000,00</b> por apenas
+                <br><b class="blue--text text-h5">12x de R$ 00,00</b></p>
+              </div>
+              <v-btn color="purple" class="white--text">
+                QUERO A TRILHA FULL
+              </v-btn>
+            </div>
+          </v-col>
+
+          <v-col align="center">
+            <div class="plan-card">
+              <b class="purple--text title">Trilha Semi - Anual</b>
+              <div class="plan-card-content">
+                <p>Acesso aos seguintes conteudos do Progtutor e suas atualizações por 1 ano</p>
+                <div><v-icon color="blue" left>mdi-checkbox-outline</v-icon><span>Watch</span></div>
+                <div><v-icon color="blue" left>mdi-checkbox-outline</v-icon><span>Construct</span></div>
+                <div><v-icon color="blue" left>mdi-checkbox-blank-outline</v-icon><span>Progress</span></div>
+                <div><v-icon color="blue" left>mdi-checkbox-blank-outline</v-icon><span>Feedback</span></div>
+                <p><br>Plano anual de <b class="purple--text">R$ 000,00</b> por apenas
+                <br><b class="blue--text text-h5">12x de R$ 00,00</b></p>
+              </div>
+              <v-btn color="purple" class="white--text">
+                QUERO A TRILHA SEMI
+              </v-btn>
+            </div>
+          </v-col>
+
+          <v-col align="center">
+            <div class="plan-card">
+              <b class="purple--text title">Projeto Avulso</b>
+              <div class="plan-card-content">
+                <p>Acesso liberado para cada projeto selecionado na linguagem desejada</p>
+                <div><v-icon color="blue" left>mdi-checkbox-outline</v-icon><span>Watch</span></div>
+                <div><v-icon color="blue" left>mdi-checkbox-outline</v-icon><span>Construct</span></div>
+                <div><v-icon color="blue" left>mdi-checkbox-blank-outline</v-icon><span>Progress</span></div>
+                <div><v-icon color="blue" left>mdi-checkbox-blank-outline</v-icon><span>Feedback</span></div>
+                <p><br>Plano anual de <b class="purple--text">R$ 000,00</b> por apenas
+                <br><b class="blue--text text-h5">12x de R$ 00,00</b></p>
+              </div>
+              <v-btn color="purple" class="white--text">
+                QUERO O PROJETO AVULSO
+              </v-btn>
+            </div>
+          </v-col>
+        </v-row>
     </div>
 
     <Footer />

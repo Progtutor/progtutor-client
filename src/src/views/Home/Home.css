@@ -28,6 +28,10 @@
     padding-bottom: 50px;
 }
 
+#plans {
+    padding-bottom: 50px;
+}
+
 .base {
     margin: auto;
     max-width: 70vw;
@@ -47,6 +51,18 @@
     align-items: center;
     justify-content: center;
     background-color: #1b1b20;
+}
+
+.plan-card {
+    padding-top: 15px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    border: 1px solid #53599A;
+}
+
+.plan-card-content {
+    margin: 35px;
+    text-align: justify;
 }
 
 h3 {

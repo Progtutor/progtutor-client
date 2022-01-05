@@ -10,9 +10,9 @@
           Home
         </router-link>
 
-        <router-link to="/planos">
+        <a href="/#plans">
           Planos
-        </router-link>
+        </a>
 
         <router-link to="/sobre">
           Sobre
