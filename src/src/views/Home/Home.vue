@@ -101,7 +101,7 @@
 
     <div id="stats">
       <v-row align="center">
-          <v-col align="center" v-for="row in stats" :key="row">
+          <v-col align="center" v-for="row in stats" :key="row.name">
             <b class="purple--text title text-h4 text-center" v-text="'+' + row.value"></b>
             <p class="text-center" v-text="row.name"></p>
           </v-col>
