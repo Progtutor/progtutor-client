@@ -1,5 +1,5 @@
 export default {
-    name: "Topbar",
+    name: "Footer",
 
     data: function() {
         return {}

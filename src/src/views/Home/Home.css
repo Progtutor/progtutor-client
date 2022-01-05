@@ -1,25 +1,63 @@
+#solutions {
+    margin-top: 50px;
+}
+
+#f-col {
+    border-right: 1px solid #47BDCB;
+}
+
+#languages {
+    margin: auto;
+    padding-bottom: 25px;
+    margin-top: 50px;
+    background-color: #1b1b20;
+}
+
+#video {
+    margin: auto;
+    height: 80vh;
+    background-image: linear-gradient(#53599A, #000000);
+}
+
+#stats {
+    background-color: #1b1b20;
+}
+
+#projects {
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+
+.base {
+    margin: auto;
+    max-width: 70vw;
+}
+
+.card {
+    margin: auto;
+    text-align: justify;
+    max-width: 500px;
+}
+
+.p-card {
+    color: #47BDCB;
+    height: 100px;
+    display: flex;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    background-color: #1b1b20;
+}
+
 h3 {
     margin-bottom: 20px;
     margin-top: 100px;
     font-style: italic;
-    max-width: 1200px;
+    max-width: 65vw;
 }
 
 h4 {
     margin-bottom: 10px;
     color: #47BDCB;
     font-style: italic;
-}
-
-.card {
-    text-align: justify;
-    max-width: 450px;
-}
-
-.text-purple {
-    color: #53599A;
-}
-
-.text-blue {
-    color: #47BDCB;
 }

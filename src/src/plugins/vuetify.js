@@ -8,7 +8,9 @@ export default new Vuetify({
     theme: {
         themes: {
             light: {
-                white: "#E5E5E5"
+                white: "#E5E5E5",
+                purple: "#53599A",
+                blue: "#47BDCB"
             }
         },
         options: {

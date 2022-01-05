@@ -1,6 +1,10 @@
 <template>
   <v-container id="menu" fluid>
     <v-row no-gutters>
+      <v-col align="start">
+        *logo*
+      </v-col>
+
       <v-col align="end">
         <router-link to="/">
           Home
@@ -14,12 +18,12 @@
           Sobre
         </router-link>
 
-        <v-btn tile color="#6E75C1" outlined>
-          <v-icon left>mdi-account</v-icon>
+        <v-btn tile color="purple" outlined>
+          <v-icon left size=25>mdi-account</v-icon>
           Entrar
         </v-btn>
 
-        <v-btn tile color="#47BDCB" class="white--text">
+        <v-btn tile color="blue" class="white--text">
           Criar Conta
         </v-btn>
 
