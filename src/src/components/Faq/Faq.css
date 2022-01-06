@@ -1,0 +1,21 @@
+#faq {
+    max-width: 50vw;
+}
+
+.panel-header {
+    color: #53599A;
+    background: #141418;
+}
+
+.panel-content {
+    color: #E5E5E5;
+    background: #141418;
+}
+
+.v-tab {
+    color: #5e5e5e !important;
+}
+
+.v-tab--active {
+    color: #47BDCB !important;
+}

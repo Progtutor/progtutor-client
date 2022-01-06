@@ -32,6 +32,10 @@
     padding-bottom: 50px;
 }
 
+#help {
+    margin-bottom: 80px;
+}
+
 .base {
     margin: auto;
     max-width: 70vw;
@@ -67,7 +71,7 @@
 
 .sep {
     height: 3px;
-    width: 200px;
+    width: 250px;
     background-color: #53599A;
 }
 

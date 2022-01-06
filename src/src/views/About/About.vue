@@ -1,7 +1,8 @@
 <template>
   <v-container fluid class="pa-0">
     <Topbar />
-    About
+    <div id="about"></div>
+    <Footer />
   </v-container>
 </template>
 

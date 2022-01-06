@@ -178,7 +178,7 @@
     <div id="plans" class="base">
       <v-row align="center">
           <v-col align="center">
-            <div class="text-h4 blue--text title">Conheça nossos planos</div>
+            <div class="text-h4 blue--text">Conheça nossos planos</div>
           </v-col>
       </v-row>
 
@@ -241,6 +241,16 @@
               QUERO O PROJETO AVULSO
             </v-btn>
           </div>
+        </v-col>
+      </v-row>
+    </div>
+
+    <div id="help">
+      <v-row align="center">
+        <v-col align="center">
+          <div class="text-h5 blue--text">Precisa de ajuda?</div>
+          <div class="text-h4 white--text">Dúvidas Frequentes</div>
+          <Faq />
         </v-col>
       </v-row>
     </div>

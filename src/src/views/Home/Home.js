@@ -1,11 +1,13 @@
 import Topbar from "@/components/Topbar/Topbar.vue"
 import Footer from "@/components/Footer/Footer.vue"
+import Faq from "@/components/Faq/Faq.vue"
 
 export default {
     name: "Home",
     components: {
         Topbar,
-        Footer
+        Footer,
+        Faq
     },
     methods: {
         
