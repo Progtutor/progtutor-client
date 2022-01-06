@@ -2,15 +2,13 @@
   <v-container id="footer" fluid>
     <v-row no-gutters>
       <v-col align="start">
-        *logo*
-        <div>
-          Progtutor &copy; 2022<br>
-          Todos os direitos reservados. 
+        <div id="copy">
+          <img id="logo" alt="Logo Progtutor" :src="logo" rel="preload" />
+          <div>
+            Progtutor &copy; 2022<br>
+            Todos os direitos reservados. 
+          </div>
         </div>
-      </v-col>
-
-      <v-col align="end">
-        *links*
       </v-col>
     </v-row>
   </v-container>

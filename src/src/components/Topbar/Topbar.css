@@ -3,6 +3,10 @@
     border-bottom: 1px solid #6E75C1;
 }
 
+#logo {
+    margin-left: 60px;
+}
+
 a {
     color: #E5E5E5 !important;
     text-decoration: none;

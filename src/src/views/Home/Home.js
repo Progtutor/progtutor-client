@@ -13,6 +13,7 @@ export default {
 
     data: function() {
         return {
+            imageCode: require("../../assets/coding.png"),
             stats: [{
                 name: "Aulas disponíveis",
                 value: 15

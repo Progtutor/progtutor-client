@@ -1,8 +1,8 @@
 <template>
   <v-container id="menu" fluid>
-    <v-row no-gutters>
+    <v-row no-gutters align="center">
       <v-col align="start">
-        *logo*
+        <img id="logo" alt="Logo Progtutor" :src="logo" rel="preload" />
       </v-col>
 
       <v-col align="end">
@@ -18,12 +18,12 @@
           Sobre
         </router-link>
 
-        <v-btn tile color="purple" outlined>
+        <v-btn color="purple" outlined>
           <v-icon left size=25>mdi-account</v-icon>
           Entrar
         </v-btn>
 
-        <v-btn tile color="blue" class="white--text">
+        <v-btn color="blue" class="white--text">
           Criar Conta
         </v-btn>
 

@@ -2,7 +2,9 @@ export default {
     name: "Footer",
 
     data: function() {
-        return {}
+        return {
+            logo: require("../../assets/logo.png")
+        }
     },
 
     methods: {
