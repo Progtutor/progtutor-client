@@ -18,14 +18,18 @@
           Sobre
         </router-link>
 
-        <v-btn color="purple" outlined>
-          <v-icon left size=25>mdi-account</v-icon>
-          Entrar
-        </v-btn>
-
-        <v-btn color="blue" class="white--text">
-          Criar Conta
-        </v-btn>
+        <router-link to="/entrar" class="no-margin">
+          <v-btn color="purple" outlined>
+            <v-icon left size=25>mdi-account</v-icon>
+            Entrar
+          </v-btn>
+        </router-link>
+        
+        <router-link to="/cadastrar" class="no-margin">
+          <v-btn color="blue" class="white--text">
+            Criar Conta
+          </v-btn>
+        </router-link>
 
       </v-col>
     </v-row>
