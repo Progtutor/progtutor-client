@@ -1,13 +1,16 @@
 export default {
-    name: "Login",
+    name: "Register",
     data: function() {
         return {
             logo: require("../../assets/logo.png"),
-            loginForm: {
+            registerForm: {
+                name: "",
+                username: "",
                 email: "",
-                password: ""
+                password: "",
+                confirmPassword: ""
             },
             showPassword: false
         }
     }
-}
+}       

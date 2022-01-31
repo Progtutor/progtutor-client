@@ -48,7 +48,7 @@
           </div>
 
           <div class="text-center">
-            <router-link to="/sobre" class="purple--text text-h6">
+            <router-link to="/cadastrar" class="purple--text text-h6">
               Não tem uma conta? <span class="blue--text">Crie agora!</span>
             </router-link>
           </div>
