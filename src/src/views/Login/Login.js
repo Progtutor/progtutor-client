@@ -13,7 +13,12 @@ export default {
 
     data: function() {
         return {
-            logo: require("../../assets/logo.png")
+            logo: require("../../assets/logo.png"),
+            loginForm: {
+                email: "",
+                password: ""
+            },
+            showPassword: false
         }
     },
 

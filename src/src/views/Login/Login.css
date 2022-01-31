@@ -1,33 +1,34 @@
-#info {
-    min-width: 30vw;
-}
-
-#btn-login {
-    width: 300px;
-}
-
-.center {
-    text-align: center;
-}
-
 a {
     text-decoration: none;
 }
 
 #login-form {
-    padding: 50px;
+    max-width: 600px;
+    padding: 60px;
     background-color: #1b1b20;
     border-radius: 20px;
-    min-height: 50vh;
-    min-width: 30vw;
+}
+
+#forgot-password {
+    margin-top: -10px;
+    margin-bottom: 50px;
+}
+
+#div-btn-login {
+    border: 1px solid #47BDCB;
+    border-radius: 5px;
+}
+
+#btn-login {
+    width: 100%;
+    height: 50px;
+    font-size: 25px;
 }
 
 .base {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    min-height: 100vh;
-    min-width: 50vw;
+    max-width: 1500px;
+}
+
+.v-text-field--outlined >>> fieldset {
+    border-color: #47BDCB;
 }
